@@ -50,23 +50,42 @@ main {
 	padding:0;
 }
 
-main h1 {
-	font-size: 150%;
-	padding: .3em 0;
-    border-top: 3px solid #931420;
-    border-bottom: 3px solid #931420;
+/*section properties*/
+section{
+	width: 525px;
+	float: right;
+	padding: 20px 20px 20px 20px;
 }
-main h2 {
-	color: #800000;
+/*aside properties*/
+aside{
+	width: 215px;
+	float: right;
+	padding: 0 20px 20px 20px;
+}
+main section h2{
 	font-size: 130%;
-	padding: .5em 0 .25em 0;
+color: #800000;
+padding-top: .5em;
+padding-bottom: .25em;
+}	
+main aside h2{
+	font-size: 130%;
+color: #800000;
+padding-top: .5em;
+padding-bottom: .25em;
 }
-main h3 {
+/* rule set for the h3 element in the aside element */
+main aside h3 {
 	font-size: 105%;
 	padding-bottom: .25em;
 }
 main img {
+	padding-top: 1em;
 	padding-bottom: 1em;
+}
+/* rule set for the img element in the aside element */
+main aside img {
+padding-bottom: 1em;
 }
 main p {
 	padding-bottom: .5em;
@@ -81,16 +100,6 @@ main ul {
 main li {
 	padding-bottom: .35em;
 }
-/*section properties*/
-section{
-	width: 525px;
-	float: right;
-	padding: 20px 20px 20px 20px;
-section h2{
-	color: #333;
-	font-size: 1.5em;
-	margin-bottom: 0.5em;
-}	
 
 /* the styles for the article */
 article {
@@ -108,15 +117,12 @@ article h3 {
 
 
 /* the styles for the aside */
-aside{
-	width: 215px;
-	float: right;
-	padding: 0 20px 20px 20px;
-}
+
 aside h2{
-	color: #333;
-	font-size: 1.5em;
-	margin-bottom: 0.53m;
+	font-size: 130%;
+color: #800000;
+padding-top: .5em;
+padding-bottom: .25em;
 }	
 aside h3 {
 	font-size: 105%;
@@ -128,8 +134,9 @@ aside img {
 
 /* the styles for the footer */
 footer {
-	clear: both;
 	background-color: #931420;
+	/* clear property for the fppter to clear floating*/
+	clear:both;
 }
 footer p {
 	text-align: center;
