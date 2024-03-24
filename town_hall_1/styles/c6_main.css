@@ -116,22 +116,6 @@ article h3 {
 }
 
 
-/* the styles for the aside */
-
-aside h2{
-	font-size: 130%;
-color: #800000;
-padding-top: .5em;
-padding-bottom: .25em;
-}	
-aside h3 {
-	font-size: 105%;
-	padding-bottom: .25em;
-}
-aside img {
-	padding-bottom: 1em;
-}
-
 /* the styles for the footer */
 footer {
 	background-color: #931420;
